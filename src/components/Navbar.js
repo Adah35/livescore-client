@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../assets/logo.jpg'
 
 const Navbar = () => {
     return (
@@ -6,7 +7,7 @@ const Navbar = () => {
             <div className="w-12/12 mx-auto px-4">
                 <div className="flex items-center gap-4">
                     <div className="flex">
-                        <span className="text-lg font-bold">Goal.com</span>
+                        <img src={logo} alt="" width={'70px'} />
                     </div>
                     <div className="flex space-x-4">
                         <a href="#" className="hover:text-gray-300 px-4 py-2">Home</a>
