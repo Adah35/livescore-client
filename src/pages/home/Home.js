@@ -28,8 +28,8 @@ const Home = () => {
                         <p className='flex items-center gap-2 mt-1 mb-1'><span><img src={v.ic2} alt="" width={'24px'} /></span><span> {v.t2}</span></p>
                     </div>
                     <div className='text-[#fdfdfd] font-semibold flex flex-col'>
-                        <span>{v.t1s}</span>
-                        <span>{v.t2s}</span>
+                        <span className=' mt-1 mb-1'>{v.t1s}</span>
+                        <span className=' mt-1 mb-1'>{v.t2s}</span>
                     </div>
                 </div>
                 <div>
@@ -40,13 +40,13 @@ const Home = () => {
     })
     return (
         <div className='container mx-auto px-3'>
-            <div className='flex items-center py-3 gap-3'>
-                <ul className='flex text-gray-300 gap-3'>
-                    <li className={`${catLinks}`}>Football</li>
+            <div className='flex items-center lg:justify-start justify-center py-3 gap-3'>
+                <ul className='flex text-gray-300 gap-3 '>
+                    <li className={`bg-white text-[#222] font-bold p-2 rounded-full text-sm`}>Football</li>
                     <li className={`${catLinks}`}>Hockey</li>
                     <li className={`${catLinks}`}>Basketball</li>
                     <li className={`${catLinks}`}>Tennis</li>
-                    <li className={`bg-white text-[#222] font-bold p-2 rounded-full text-sm `}>Cricket</li>
+                    <li className={`${catLinks} `}>Cricket</li>
                 </ul>
             </div>
             <div className='flex gap-3 text-white'>

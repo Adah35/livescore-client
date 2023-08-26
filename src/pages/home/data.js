@@ -85,3 +85,64 @@ export const scheduleData = [
         date: '28 AUG'
     },
 ]
+
+
+
+
+export const dataa = [
+    [{
+        info: ['Table', 'Fixtures & results', 'Breaking News'],
+        teams: [{
+            ic: img1,
+            tn: 'Manchester United'
+        }, {
+            ic: img1,
+            tn: 'Liverpool'
+        }, {
+            ic: img1,
+            tn: 'Manchester City'
+        }, {
+            ic: img1,
+            tn: 'Chelsea'
+        }, {
+            ic: img1,
+            tn: 'Arsenal'
+        },]
+    }],
+    [{
+        info: ['Table', 'Fixtures & results', 'Breaking News'],
+        teams: [{
+            ic: img1,
+            tn: 'Barcelona'
+        }, {
+            ic: img1,
+            tn: 'Real Madrid'
+        }, {
+            ic: img1,
+            tn: 'Atletico Madrid'
+        }, {
+            ic: img1,
+            tn: 'Valencia'
+        }, {
+            ic: img1,
+            tn: 'Sevilla'
+        },]
+    },],
+    [{
+        info: ['Table', 'Fixtures & results', 'Breaking News'],
+        teams: [{
+            ic: img1,
+            tn: 'Juventus'
+        }, {
+            ic: img1,
+            tn: 'Inter'
+        }, {
+            ic: img1,
+            tn: 'Milan'
+        }, {
+            ic: img1,
+            tn: 'Napoli'
+        },]
+    },]
+
+]
