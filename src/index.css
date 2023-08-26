@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* bg-gradient-to-r from-[rgba(30,20,0,0.5)] to-[rgba(40,30,0,0.3)] */
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  .btn-primary {
+    @apply bg-gradient-to-r from-[#6fc6e9] to-[#4b34c2] text-white;
+  }
+  .container-fluid {
+    @apply lg:w-9/12 md:w-10/12 w-11/12  mx-auto  p-3 rounded-lg overflow-hidden;
+  }
+  .bg-blur {
+    @apply bg-white/5 bg-opacity-80 backdrop-blur-sm;
+  }
+  .input-bg {
+    @apply bg-[#101630] outline-none w-full p-4 rounded-lg mb-3 focus:outline-red-400;
+  }
+  .bd-gradient {
+    @apply bg-gradient-to-r from-[#6fc6e9] to-[#4b34c2];
+  }
+  .main-bg {
+    @apply bg-gradient-to-r from-[rgba(30,20,0,0.5)] to-[rgba(40,30,0,0.3)] bg-[#101630];
+  }
+}
+
+body {
+  background-color: #07080e;
+}
