@@ -1,5 +1,4 @@
 import React from 'react';
-import img from '../assets/images/1.jpg'
 import { RiArrowDropRightLine, RiArrowRightLine, RiClockwiseLine, RiTimeLine } from 'react-icons/ri';
 const NewsSection = () => {
     const mainNews = [
@@ -68,7 +67,7 @@ const NewsSection = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='grid grid-cols-3'>
+                    <div className='grid grid-cols-3 gap-3'>
                         {mainNews.map((article, index) => (
                             <div key={index} className="mb-4 ">
                                 <img src={article.imageUrl} alt={article.title} className="mb-2 rounded-lg shadow" width={'400px'} />

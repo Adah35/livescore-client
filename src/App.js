@@ -2,7 +2,7 @@ import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Home from './pages/home/Home'
 import Layout from './pages/Layout'
-import NewsSection from './pages/NewsPage'
+import NewsSection from './pages/news/NewsPage'
 import AdminPage from './pages/admin/AdminPage'
 
 function App() {

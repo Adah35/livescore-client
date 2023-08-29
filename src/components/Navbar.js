@@ -1,20 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { FaClock, FaEnvelope, FaFacebook, FaInstagram, FaLinkedinIn, FaTwitter, FaBars, FaDumbbell, FaDeleteLeft, FaPhoneVolume, FaX } from "react-icons/fa6";
+import { FaBars, FaX } from "react-icons/fa6";
 import logo from '../assets/logo-removebg-preview.png'
 import { Link } from 'react-router-dom';
-import img1 from '../assets/img1.png'
-import img2 from '../assets/img2.png'
-import img3 from '../assets/img3.png'
-import img4 from '../assets/img4.png'
-import img5 from '../assets/img5.png'
-import img6 from '../assets/img6.png'
-import img7 from '../assets/img7.png'
-import img8 from '../assets/img8.png'
-import img9 from '../assets/img9.png'
-import img10 from '../assets/img10.png'
-import img11 from '../assets/img11.png'
-import img12 from '../assets/img12.png'
-import { RiArrowDownFill, RiArrowDownSFill, RiArrowUpSFill } from 'react-icons/ri';
+
 
 
 
@@ -28,15 +16,16 @@ const Navbar = () => {
             <div className="w-12/12 mx-auto px-4 text-gray-700 font-semibold shadow-lg">
                 <div className="flex items-center justify-between lg:justify-start gap-4 ">
                     <div className="flex">
-                        <img src={logo} alt="" width={'70px'} />
+                        <img src={logo} alt="" width={'100px'} />
                     </div>
                     <div className=" space-x-4  relative hidden lg:flex " >
                         <Link to={'/'} className="block  hover:text-blue-500 px-4 py-2 borderAnimation">Live Scores</Link>
                         <Link to={'news'} className="block  hover:text-blue-500 px-4 py-2 borderAnimation">Latest News</Link>
                         <Link className="block  hover:text-blue-500 px-4 py-2 borderAnimation">Transfers</Link>
-                        <Link className="block  hover:text-blue-500 px-4 py-2">Culture</Link>
-                        <Link className="block  hover:text-blue-500 px-4 py-2">GOALSTUDIO</Link>
-                        <Link className="block  hover:text-blue-500 px-4 py-2">More</Link>
+                        <Link className="block  hover:text-blue-500 px-4 py-2">Rumour</Link>
+                        <Link className="block  hover:text-blue-500 px-4 py-2">Prediction</Link>
+                        <Link className="block  hover:text-blue-500 px-4 py-2">Tipstar</Link>
+                        <Link className="block  hover:text-blue-500 px-4 py-2">Game</Link>
                     </div>
 
                     {model === true && (
@@ -44,9 +33,10 @@ const Navbar = () => {
                             <Link className="block  hover:text-blue-500 px-4 py-2 borderAnimation">Live Scores</Link>
                             <Link className="block  hover:text-blue-500 px-4 py-2 borderAnimation">Latest News</Link>
                             <Link className="block  hover:text-blue-500 px-4 py-2 borderAnimation">Transfers</Link>
-                            <Link className="block  hover:text-blue-500 px-4 py-2">Culture</Link>
-                            <Link className="block  hover:text-blue-500 px-4 py-2">GOALSTUDIO</Link>
-                            <Link className="block  hover:text-blue-500 px-4 py-2">More</Link>
+                            <Link className="block  hover:text-blue-500 px-4 py-2">Rumour</Link>
+                            <Link className="block  hover:text-blue-500 px-4 py-2">Prediction</Link>
+                            <Link className="block  hover:text-blue-500 px-4 py-2">Tipstar</Link>
+                            <Link className="block  hover:text-blue-500 px-4 py-2">Game</Link>
                         </div>
                     )
 
